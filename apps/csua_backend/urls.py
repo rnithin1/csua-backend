@@ -8,6 +8,7 @@ urlpatterns = [
     path("", include("apps.main_page.urls")),
     path("", include("apps.db_data.urls")),
     path("outreach/", include("apps.outreach.urls")),
+    path("sikh/", include("apps.sikh.urls")),
     path("admin/", admin.site.urls),
     path("newuser/", include("apps.newuser.urls")),
     path("computers/", include("apps.tracker.urls")),

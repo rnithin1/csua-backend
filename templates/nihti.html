@@ -1,0 +1,14 @@
+{% extends "base_with_hero.html" %}
+{% block title %}Join{% endblock %}
+{% block hero %}
+{% include "hero_with_bg_img.html" with title="Join the CSUA" subtitle="Become a part of a vast, welcoming community of students interested in CS!" img_url="/static/images/Woz.jpg" %}
+{% endblock %}
+{% block page_content %}
+<div class="columns">
+    <div class="column">
+        <div class="box content">
+            {{ name }}
+        </div>
+    </div>
+</div>
+{% endblock %}

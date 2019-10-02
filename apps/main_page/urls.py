@@ -20,6 +20,7 @@ urlpatterns = [
         name="computing_resources",
     ),
     path("join/", TemplateView.as_view(template_name="join.html"), name="join"),
+    path("nihti/", TemplateView.as_view(template_name="nihti.html"), name="nihti"),
     path("alumni/", TemplateView.as_view(template_name="alumni.html"), name="alumni"),
     path(
         "login/",
